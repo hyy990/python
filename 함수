@@ -1,0 +1,14 @@
+def processScores():
+    name = input("이름 입력 : ")
+    middle = int(input("중간 성적 입력: "))
+    final = int(input("기말 성적 입력: "))
+    total = middle + final
+    avg = total/2
+
+    print("-"*15)
+    print("이름 :", name)
+    print("총점 :", total)
+    print("평균 :", avg)
+    print("-"*15)
+
+processScores()
